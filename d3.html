@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D3 — Push + Ombros + Tríceps</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topo">
+  <a class="marca" href="d1.html"><span>🏋️</span><strong>MEU TREINO</strong></a>
+  <nav class="menu"><a class="" href="d1.html">D1</a><a class="" href="d2.html">D2</a><a class="ativo" href="d3.html">D3</a><a class="" href="d4.html">D4</a><a class="" href="d5.html">D5</a></nav>
+  <div class="atalhos">
+    <a href="https://rlpimenta.github.io/Portfolio/" target="_blank" rel="noopener" title="Portfólio">💼</a>
+    <a href="https://rlpimenta.github.io/meu-plano-treino/" target="_blank" rel="noopener" title="Projeto do curso">📚</a>
+  </div>
+</header>
+<main class="pagina">
+<section class="cabecalho-treino">
+ <div><p class="etiqueta">TREINO 3</p><h1>D3 — Push + Ombros + Tríceps</h1><p class="descricao">Peito, ombros e tríceps</p></div>
+ <div class="resumo-treino"><span>🏋️ 10 exercícios</span><span>🔥 Falha controlada</span></div>
+</section>
+<section class="lista-exercicios">
+<article class="card-exercicio"
+ data-exercicio="Barbell Bench Press" data-imagem="Barbell_Bench_Press_-_Medium_Grip" data-musculo="Chest" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Peito</p>
+    </div>
+    <span class="numero">01</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">3 × 10 – 8 – 6</strong>
+    <span class="descanso">⏱ 2–3 min</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Barbell Bench Press">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Incline Dumbbell Bench Press" data-imagem="Incline_Dumbbell_Press" data-musculo="Chest" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Peito</p>
+    </div>
+    <span class="numero">02</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">3 × 12 – 10 – 8</strong>
+    <span class="descanso">⏱ 2–3 min</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Incline Dumbbell Bench Press">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Pec Fly" data-imagem="Butterfly" data-musculo="Chest" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Peito</p>
+    </div>
+    <span class="numero">03</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">2 × 15 – 12</strong>
+    <span class="descanso">⏱ 60–90 s</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Pec Fly">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Cable Crossover" data-imagem="Cable_Crossover" data-musculo="Chest" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Peito</p>
+    </div>
+    <span class="numero">04</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">2 × 15 – 12</strong>
+    <span class="descanso">⏱ 60–90 s</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Cable Crossover">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Dumbbell Shoulder Press" data-imagem="Seated_Dumbbell_Press" data-musculo="Shoulders" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Ombros</p>
+    </div>
+    <span class="numero">05</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">3 × 12 – 10 – 8</strong>
+    <span class="descanso">⏱ 2–3 min</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Dumbbell Shoulder Press">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Cable Lateral Raise" data-imagem="Bent_Over_Low-Pulley_Side_Lateral" data-musculo="Shoulders" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Ombros</p>
+    </div>
+    <span class="numero">06</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">3 × 20 – 15 – 12</strong>
+    <span class="descanso">⏱ 60–90 s</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Cable Lateral Raise">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Cable Rear Delt Fly" data-imagem="Reverse_Machine_Flyes" data-musculo="Shoulders" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Ombros</p>
+    </div>
+    <span class="numero">07</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">2 × 20 – 15</strong>
+    <span class="descanso">⏱ 60–90 s</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Cable Rear Delt Fly">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Lying Triceps Extension / Skullcrusher" data-imagem="EZ-Bar_Skullcrusher" data-musculo="Triceps" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Tríceps</p>
+    </div>
+    <span class="numero">08</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">3 × 12 – 10 – 8</strong>
+    <span class="descanso">⏱ 60–90 s</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Lying Triceps Extension / Skullcrusher">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Cable Triceps Extension" data-imagem="Cable_One_Arm_Tricep_Extension" data-musculo="Triceps" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Tríceps</p>
+    </div>
+    <span class="numero">09</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">2 × 15 – 12</strong>
+    <span class="descanso">⏱ 60–90 s</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Cable Triceps Extension">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article>
+
+<article class="card-exercicio"
+ data-exercicio="Overhead Cable Triceps Extension" data-imagem="Triceps_Overhead_Extension_with_Rope" data-musculo="Triceps" data-falha="true">
+  <div class="topo-card">
+    <div>
+      <h2 class="nome-exercicio"></h2>
+      <p class="musculo">Tríceps</p>
+    </div>
+    <span class="numero">10</span>
+  </div>
+  <a class="link-imagem" href="#" target="_blank" rel="noopener" title="Abrir fonte das imagens">
+    <div class="imagem-exercicio">
+      <img class="imagem-1" alt="">
+      <img class="imagem-2" alt="">
+      <span class="imagem-carregando">A carregar...</span>
+    </div>
+  </a>
+  <div class="info-exercicio">
+    <strong class="series">2 × 15 – 12</strong>
+    <span class="descanso">⏱ 60–90 s</span>
+    <div class="peso">
+      <span>⚖️</span>
+      <input class="peso-input" type="number" min="0" step="0.5" placeholder="0" aria-label="Peso Overhead Cable Triceps Extension">
+      <span>kg</span>
+      <button class="guardar-peso" type="button" title="Guardar peso">✓</button>
+    </div>
+  </div>
+</article></section>
+<section class="card-cardio"><div><span class="icone-cardio">🚶</span><div><p class="etiqueta">CARDIO</p><h2>20 minutos</h2><p>Escolhe a opção indicada para este treino.</p></div></div><strong class="cardio-tempo">20 min</strong></section>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
